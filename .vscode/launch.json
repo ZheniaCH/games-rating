@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Запустить программу",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\appModules\\http-utils\\index.js"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Терминал отладки JavaScript",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
